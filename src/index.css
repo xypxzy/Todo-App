@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #03001c;
+  --secondary-color: #b6eada;
+  --thirtiry-color: #5b8fb9;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +14,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 
-  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--thirtiry-color);
 }

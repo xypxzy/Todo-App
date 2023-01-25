@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700&display=swap');
+
 .App {
   text-align: center;
-  color: #fff;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20vh 0;
+  max-width: 500px;
+  min-height: 400px;
+  padding: 50px;
+  margin: 10vh 0;
+
+  border-radius: 2rem;
+
+  font-family: 'Unbounded', serif;
+
+  color: var(--thirtiry-color);
+  background-color: var(--secondary-color);
 }
 
 h1 {

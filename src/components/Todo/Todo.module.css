@@ -2,24 +2,24 @@
   display: flex;
   align-items: center;
   padding: 10px 20px;
-  margin: 15px 0;
+  margin: 5px 0;
   font-size: 1.5rem;
   border-radius: 5px;
   border: 2px solid #555;
-  color: #112d49;
   background-color: #fbfef9;
 }
 
 .todoText {
   width: 100%;
+  font-size: 24px;
   text-align: left;
   user-select: none;
+  margin-left: 5px;
 }
 
 .todoIcon {
   font-size: 1.8rem;
   margin-right: 10px;
-  color: teal;
 }
 
 .completedTodo {
@@ -50,7 +50,7 @@
 }
 
 .checkIcon:hover {
-  color: green;
+  color: var(--thirtiry-color);
 }
 
 .deleteIcon:hover {
